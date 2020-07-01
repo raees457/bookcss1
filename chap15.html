@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Layout</title>
+    <link rel="stylesheet" href="chap15style.css">
+</head>
+<body>
+    <h1>The Evolution of the Bicycle</h1>
+    <div>
+        <hr class="hr"/>
+    <blockquote class="am">"Life is like riding a bicycle.
+     To keep your balance you must keep moving." -
+     Albert Einstein</blockquote>
+    <p>In 1817 Baron von Drais invented a walking
+     machine that would help him get around the royal
+     gardens faster: two same-size in-line wheels, the
+     front one steerable, mounted in a frame ... </p>
+    </div>
+    <div class="body"> 
+        <p class="line">The fourth paragraph does not
+        go across to the left hand edge
+        of the page as one might expect.
+        Rather it sits right under the
+        third paragraph.
+        The reason for this is that the
+        fourth paragraph has space to
+        start under the third paragraph,
+        but it cannot go any further to
+        the left because the second
+        paragraph is in the way.
+        Setting the height of the
+        paragraphs to be the same
+        height as the tallest paragraph
+        would solve this issue, but it
+        is rarely suited to real world
+        designs where the amount of
+        text in a paragraph or column
+        may vary. It is more common
+        to use the clear property
+        (discussed on the next page) to
+        solve this issue </p>
+    </div>
+        <div id="header">
+         <h1>Logo</h1>
+         <div id="nav">
+         <ul>
+         <li><a href="">Home</a></li>
+         <li><a href="">Products</a></li>
+         <li><a href="">Services</a></li>
+         <li><a href="">About</a></li>
+         <li><a href="">Contact</a></li>
+         </ul>
+         </div>
+        </div>
+        <div id="content">
+         <div id="feature">
+         <p>Feature</p>
+         </div>
+         <div class="article column1">
+         <p>Column One</p>
+         </div>
+         <div class="article column2">
+         <p>Column Two</p>
+         </div>
+         <div class="article column3">
+         <p>Column Three</p>
+         </div>
+        </div>
+        <div id="footer">
+         <p>&copy; Copyright 2011</p>
+        </div>
+        
+
+</body>
+</html>

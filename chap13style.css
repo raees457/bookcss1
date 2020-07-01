@@ -1,0 +1,67 @@
+
+.box{
+    height: 300px;
+    width: 300px;
+    background-color: cyan;
+}
+
+.para{
+    width: 75%;
+    background-color: wheat;
+}
+.td.description{
+    min-width: 450px;
+    max-width: 650px;
+    text-align: left;
+    padding: 5px;
+    margin: 0px;
+}
+ .border-box{
+    border: 1px solid red;
+    border-width: 5px 1px 5px 1px;
+    margin: 50px;
+    padding: 50px;
+ }
+.border-style1{
+border-style: double;
+width: 50px;
+}
+.border-style2{
+    border-style: groove;
+width: 50px;
+}
+
+.border-style3{
+    border-style: dotted;
+    width: 50px;
+}
+.border-style4{
+    border-style: ridge;
+    width: 50px;
+}
+.dotted{
+    width: 200px;
+    border: 5px dotted blueviolet;
+}
+.round-corner{
+    border: 5px solid rosybrown;
+    padding: 200px;
+    width: 500px;
+    text-align: center;
+    border-radius: 15px;
+    -moz-border-radius:15px;
+    -webkit-border-radius: 15px;
+    
+}
+
+    
+
+
+
+
+
+
+
+
+
+

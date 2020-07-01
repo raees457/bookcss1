@@ -1,0 +1,58 @@
+body{
+    background-color: khaki;
+}
+h1{
+    color: darkslategrey;
+    font-family: 'Dancing Script', cursive;
+    font-size:50px;
+    font-weight: bolder;
+}
+h2{
+    color: cornflowerblue;
+    font-family:'Lakki Reddy' cursive ;
+    font-style: italic;
+    text-transform: capitalize;
+
+}
+
+p{
+    color: olive;
+    line-height: 1.4rem;
+    text-align: left;
+    
+}
+b{
+    color: midnightblue;
+    text-decoration: underline;
+}
+i{
+    color:brown;
+    letter-spacing: 1em;
+}
+p.two {
+    background-color: #dddddd;
+    color: #666666;
+    text-shadow: 1px 1px 3px #666666;}
+p.intro::first-letter{
+    font-size: 100%;
+}
+a:hover{
+color: white;
+text-decoration: underline;
+}
+
+input {
+    padding: 6px 12px 6px 12px;
+    border: 1px solid black;
+    color: blue;}
+    input.submit:hover {
+    background-color: #665544;}
+    input.submit:active {
+    background-color: chocolate;}
+    input.text {
+    color:black;}
+    input.text:focus {
+    color: blueviolet;}
+
+
+

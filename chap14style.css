@@ -1,0 +1,45 @@
+.list-style{
+    list-style-type:lower-roman ;
+}
+ul {
+    width: 150px;}
+    li {
+    margin: 10px;}
+    ul.illuminations {
+    list-style-position: outside;}
+    ul.season {
+    list-style-position: inside;}
+    .body {
+        font-family: Arial, Verdana, sans-serif;
+        color: #111111;}
+        .table {
+        width: 600px;}
+        .th, td {
+        padding: 7px 10px 10px 10px;}
+        .th {
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+        font-size: 90%;
+        border-bottom: 2px solid #111111;
+        border-top: 1px solid brown;
+        text-align: left;}
+        .tr-even {
+        background-color: skyblue;}
+        .tr-hover {
+        background-color: rebeccapurple;}
+        .money {
+        text-align: right;}
+        .td {
+            border: 1px solid #0088dd;
+            padding: 15px;}
+            .border{
+                empty-cells: show;
+                border-spacing: 6px 10px;
+            }
+            
+
+
+
+
+
+        
